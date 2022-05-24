@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New JSP FILe</title>
+<style>
+.highlight {
+color: green;
+}
+</style>
+</head>
+<body>
+	<h1>HELLO JSP</h1>
+	<p class="highlight">We can use HTML codes also JSP code also we can make use of JSPL and JSTL</p>
+</body>
+</html>

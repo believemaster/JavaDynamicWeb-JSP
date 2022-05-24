@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New HTML Page</title>
+</head>
+<body>
+	<h1>Hello HTML</h1>
+	<p>We cannot use JSP in simple html pages</p>
+</body>
+</html>

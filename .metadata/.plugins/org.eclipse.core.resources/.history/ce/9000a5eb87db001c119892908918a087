@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New HTML Page</title>
+<style>
+.red {
+color: red;
+}
+</style>
+</head>
+<body>
+	<h1>Hello HTML</h1>
+	<p class="red">We cannot use JSP in simple HTML pages</p>
+</body>
+</html>
