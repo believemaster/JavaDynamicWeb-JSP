@@ -1,0 +1,2 @@
+File content is all here of file 1
+New line of file 1

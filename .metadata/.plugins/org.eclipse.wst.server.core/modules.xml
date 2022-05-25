@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
+  <module moduleId="org.eclipse.jst.jee.server:Annotations" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:JSP Expression" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:AnnotationsURL" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:JSP Expression Elements" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:HelloServlet" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Hello JSP" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Files And ImportClass in JSP" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Files In JSP" serverId="Tomcat v10.0 Server at localhost"/>
 </modules>
