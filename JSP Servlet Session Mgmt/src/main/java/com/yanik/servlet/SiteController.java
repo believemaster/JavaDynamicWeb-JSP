@@ -2,6 +2,7 @@ package com.yanik.servlet;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -41,8 +42,13 @@ public class SiteController extends HttpServlet {
 		if(username.equals("yanikkumar") && password.equals("yanikkumar")) {
 			//			invalidating any session if any
 			request.getSession().invalidate();
+			//			creating new session
 			HttpSession newSession = request.getSession(true);
 			newSession.setMaxInactiveInterval(300);
+			// 			setting cookie
+			Cookie cUsername = new Cookie("username", username);
+			response.addCookie(cUsername);
+			
 			response.sendRedirect("memberArea.jsp");
 		} else {
 			response.sendRedirect("login.jsp");
