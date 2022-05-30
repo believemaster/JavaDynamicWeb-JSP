@@ -39,4 +39,13 @@
     <servlet-name>MemberAreaController1</servlet-name>
     <url-pattern>/MemberAreaController1</url-pattern>
   </servlet-mapping>
+  <filter>
+    <display-name>MemberAreaFilter</display-name>
+    <filter-name>MemberAreaFilter</filter-name>
+    <filter-class>com.yanik.filters.MemberAreaFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>MemberAreaFilter</filter-name>
+    <url-pattern>/MemberAreaFilter</url-pattern>
+  </filter-mapping>
 </web-app>

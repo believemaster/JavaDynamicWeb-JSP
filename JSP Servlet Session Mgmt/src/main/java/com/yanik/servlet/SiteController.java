@@ -74,7 +74,7 @@ public class SiteController extends HttpServlet {
 			response.addCookie(cUsername);
 			*/
 
-			String encode = response.encodeURL(request.getContextPath());  			// session id will be shown in url if cookies are off (by using thing method in encoding)
+			String encode = response.encodeURL(request.getContextPath());  			// session id will be shown in url if cookies are off (by using thing method in encoding )
 			response.sendRedirect(encode + "/MemberAreaController?action=memberArea");
 		} else {
 			response.sendRedirect(request.getContextPath() + "/SiteController?action=login");
