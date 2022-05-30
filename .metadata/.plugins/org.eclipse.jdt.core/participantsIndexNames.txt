@@ -1,4 +1,6 @@
 INDEX VERSION 1.131
+C:\Users\Yanik Kumar\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1620724327.index
+\Java Beans\src\main\java
 C:\Users\Yanik Kumar\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2308065705.index
 \Basic MVC Based Web\src\main\java
 C:\Users\Yanik Kumar\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\259711205.index
