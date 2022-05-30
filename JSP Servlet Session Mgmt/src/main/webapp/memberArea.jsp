@@ -29,5 +29,12 @@
 Username: <b><%= username %></b> <br/>
 
 Current Session ID (every session ID is unique everytime): <b><%= sessionID %></b>
+<br/>
+<em>You're in member area page.</em>
+
+<form action="<%= request.getContextPath() %>/MemberAreaController" method="get">
+<input type="hidden" name="action" value="destroy" />
+<input type="submit" value="Logout" />
+</form>
 </body>
 </html>
