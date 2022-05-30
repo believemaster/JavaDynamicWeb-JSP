@@ -2,6 +2,7 @@
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:Annotations" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Form Under JSP" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:JSP Servlet Session Mgmt" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:JSP Expression" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:AnnotationsURL" serverId="Tomcat v10.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:JSP Expression Elements" serverId="Tomcat v10.0 Server at localhost"/>
