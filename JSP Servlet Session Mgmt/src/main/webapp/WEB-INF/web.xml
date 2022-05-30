@@ -29,4 +29,14 @@
     <servlet-name>MemberAreaController</servlet-name>
     <url-pattern>/MemberAreaController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MemberAreaController1</display-name>
+    <servlet-name>MemberAreaController1</servlet-name>
+    <servlet-class>com.yanik.servlet.MemberAreaController1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MemberAreaController1</servlet-name>
+    <url-pattern>/MemberAreaController1</url-pattern>
+  </servlet-mapping>
 </web-app>

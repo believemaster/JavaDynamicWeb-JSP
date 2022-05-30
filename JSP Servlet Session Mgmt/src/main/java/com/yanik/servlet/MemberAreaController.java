@@ -1,4 +1,4 @@
-package MemberAreaController;
+package com.yanik.servlet;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -42,7 +42,10 @@ public class MemberAreaController extends HttpServlet {
 				}
 			}
 			*/
-			response.sendRedirect("login.jsp");
+			response.sendRedirect(request.getContextPath() + "/SiteController?action=login");
+			break;
+		case "memberArea":
+			request.getRequestDispatcher("memberArea.jsp").forward(request, response);
 			break;
 		default: 
 			break;
