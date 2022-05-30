@@ -8,7 +8,17 @@
 </head>
 <body>
 <% 
+	// Using session for logout feature
 	String username=null, sessionID=null;
+	if(request.getSession().getAttribute("username") == null) {
+		response.sendRedirect("login.jsp");
+	} else {
+		username = request.getSession().getAttribute("username").toString();
+		sessionID = request.getSession().getId();
+	}
+
+/*
+// Cookie handling (but not a good practice to use cookie for login logout feature)
 	Cookie[] cookies = request.getCookies();
 	
 	if(cookies != null) {
@@ -24,6 +34,7 @@
 	if(sessionID == null || username == null) {
 		response.sendRedirect("login.jsp");
 	}
+*/
 %>
 
 Username: <b><%= username %></b> <br/>

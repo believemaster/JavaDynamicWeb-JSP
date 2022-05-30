@@ -45,9 +45,13 @@ public class SiteController extends HttpServlet {
 			//			creating new session
 			HttpSession newSession = request.getSession(true);
 			newSession.setMaxInactiveInterval(300);
-			// 			setting cookie
+			newSession.setAttribute("username", username);
+			
+			// 			setting cookie (depending upon cookie for login logout feature is not a good practice and is not useful therefore session is a good practice)
+			/*
 			Cookie cUsername = new Cookie("username", username);
 			response.addCookie(cUsername);
+			*/
 			
 			response.sendRedirect("memberArea.jsp");
 		} else {

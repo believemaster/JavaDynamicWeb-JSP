@@ -31,6 +31,8 @@ public class MemberAreaController extends HttpServlet {
 		switch(action) {
 		case "destroy": 
 			request.getSession().invalidate();
+			/*
+			// Cookie handling (but not a good practice to use cookie for login logout feature)
 			Cookie[] cookies = request.getCookies();
 			for (Cookie cookie: cookies) {
 				if(cookie.getName().equals("username")) {
@@ -39,6 +41,7 @@ public class MemberAreaController extends HttpServlet {
 					response.addCookie(cookie);
 				}
 			}
+			*/
 			response.sendRedirect("login.jsp");
 			break;
 		default: 
