@@ -59,7 +59,7 @@
          AJP  Connector: /docs/config/ajp.html
          Define a non-SSL/TLS HTTP/1.1 Connector on port 8080
     -->
-    <Connector connectionTimeout="20000" port="5000" protocol="HTTP/1.1" redirectPort="8443"/>
+    <Connector connectionTimeout="20000" port="8090" protocol="HTTP/1.1" redirectPort="8443"/>
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="HelloServlet" path="/HelloServlet" reloadable="true" source="org.eclipse.jst.jee.server:HelloServlet"/><Context docBase="Hello JSP" path="/Hello_JSP" reloadable="true" source="org.eclipse.jst.jee.server:Hello JSP"/><Context docBase="JSP Expression Elements" path="/JSP_Expression" reloadable="true" source="org.eclipse.jst.jee.server:JSP Expression Elements"/><Context docBase="AnnotationsURL" path="/AnnotationsURL" reloadable="true" source="org.eclipse.jst.jee.server:AnnotationsURL"/><Context docBase="Files And ImportClass in JSP" path="/Files_In_JSP" reloadable="true" source="org.eclipse.jst.jee.server:Files And ImportClass in JSP"/><Context docBase="Basic MVC Based Web" path="/Basic_MVC_Based_Web" reloadable="true" source="org.eclipse.jst.jee.server:Basic MVC Based Web"/><Context docBase="Form Under JSP" path="/Form_Under_JSP" reloadable="true" source="org.eclipse.jst.jee.server:Form Under JSP"/><Context docBase="Java Beans" path="/Java_Beans" reloadable="true" source="org.eclipse.jst.jee.server:Java Beans"/><Context docBase="JSP Servlet Session Mgmt" path="/JSP_Servlet_Session_Mgmt" reloadable="true" source="org.eclipse.jst.jee.server:JSP Servlet Session Mgmt"/></Host>
+      </Host>
     </Engine>
   </Service>
 </Server>
